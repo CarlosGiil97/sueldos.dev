@@ -84,6 +84,18 @@ const GENDERS = [
   }
 ]
 
+const CURRENCY = [
+  {
+    value: 'euro',
+    text: 'Moneda'
+  },
+  {
+    value: 'dolar',
+    text: 'Dolares',
+  },
+
+]
+
 export function Filters () {
   const [selectedExperience, setSelectedExperience] = useState('all')
   const [selectedModality, setSelectedModality] = useState('all')
